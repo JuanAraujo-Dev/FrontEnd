@@ -10,14 +10,14 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  background-image:url(https://images.unsplash.com/photo-1623476408624-721c9185d569?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80);
+  background-image: url(https://images.unsplash.com/photo-1623476408624-721c9185d569?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 header {
-  background: #0000003a;
+  background: #00000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +55,7 @@ header {
 
 .item:hover {
   transform: scale(1.1);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
 }
 
 main {
@@ -81,7 +81,7 @@ main p {
 
 footer {
   height: 100px;
-  background: #0000003a;
+  background: #00000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +91,7 @@ footer {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
